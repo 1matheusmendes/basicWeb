@@ -1,2 +1,2 @@
 # basicWeb
-Coleção útil de trechos para o cotidiano para o desenvolvedor da Web
+Coleção útil de trechos para o uso cotidiano de aplicações Web
