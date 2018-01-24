@@ -1,4 +1,4 @@
-# basicWeb
+# basicWeb :globe_with_meridians:
 Coleção útil de trechos para o uso cotidiano de aplicações Web
 
 # Elementos
