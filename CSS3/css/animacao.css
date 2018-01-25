@@ -1,0 +1,30 @@
+
+/*criando animação*/
+@keyframes animacao-box{
+
+	from{
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0 } /*Inicio da animação*/
+	to{
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px
+		} /*Final da Animação*/
+}
+
+#box-animacao{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation: animacao-box 5s 3s 2 alternate;
+	/*
+	animation-name:animacao-box;
+	animation-delay:5s;
+	animation-interation-count:2;
+	anomation-direction: alternate;
+	*/
+}
