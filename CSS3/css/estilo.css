@@ -1,18 +1,18 @@
 #box{
-	width: 300px;
-	height: 300px;
-	bottom: 100px;
-	background: #b9c941;
-	padding: 80px;
-	border-radius: 20px;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
+	width: 100%;
+	height: 100%;
+	background: url("../img/codigo.jpeg");
 }
 
-#box-size{
-	width: 400px;
-	height: 300px;
-	background: #b9c941;
-	padding: 80px;
-	box-sizing: border-box;
+#box h1{
+	background: rgba(255,255,255,0.2);
 }
+
+/*Não esquecer de usar o webkit e o moz para compatibilidade*/
+/*
+#box{
+	backgroud: linear-gradiente('20deg' colocamos as cores);
+	backgroud: radial-gradiente(varias cores);
+	
+}
+*/
