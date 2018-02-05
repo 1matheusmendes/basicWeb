@@ -12,11 +12,11 @@ Não permitem a definição nem da largura e nem da altura e permitem a exibiç�
 ###### INLINE-BLOCK :x::o:
 São a mistura entre inline e block. Elementos que tenham essa definição permitem que outros elementos sejam definidos ao seu lado, e permitem o redimensionamento tanto da largura quanto de sua altura.
 
-##### Bootstrap
+# Bootstrap
 
 > Media queries 
 
-# Tipos de mídias:
+###### Tipos de mídias:
 
 - all – todos os dispositivos
 - aural – sintetizadores de voz
@@ -29,7 +29,7 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 - tty – teleimpressores e terminais
 - tv – televisores
 
-# Exemplo de utilização
+###### Exemplo de utilização
 
 <link rel="stylesheet" media="print" href="print.css" />
 
