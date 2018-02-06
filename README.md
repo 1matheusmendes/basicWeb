@@ -31,9 +31,9 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 
 ###### Exemplo de utilização
 
-<link rel="stylesheet" media="print" href="print.css" />
+< link rel="stylesheet" media="print" href="print.css" />
 
-#Exemplo de resolução de telas
+###### Exemplo de resolução de telas
 
 - 320 pixels – Smartphones no modo retrato.
 - 480 pixels – Smartphones no modo paisagem.
