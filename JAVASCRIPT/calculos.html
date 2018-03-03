@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Efetuando operações matemáticas</title>
+	<script type="text/javascript">
+		//+
+		//-
+		//*
+		// /
+		//%
+
+		//convertemos = parseInt e parseFloat
+
+		var num1 = prompt('Digite o valor A');
+		var num2 = prompt('Digite o valor B');
+
+		num1 =  parseFloat(num1);
+		num2 =  parseFloat(num2);
+
+		//concatena e soma o sinal + 
+
+		//O java interpreta o + para concatenar quando tem uma string, utilizamos o () para somar na frente do TEXTO
+		document.write('A soma é igual a: ' + (num1 + num2) + '<br />' );
+		document.write('A subtração é igual a: ' + (num1 - num2) + '<br />' );
+		document.write('A mutiplicação é igual a: ' + (num1 * num2) + '<br />' );
+		document.write('A divisão é igual a: ' + (num1 / num2) + '<br />' );
+		document.write('O resto da divisão é igual a: ' + (num1 % num2) + '<br />' );
+		//incremento e decremento
+		//no incremento anterior a variavel é interpretada normalmente
+		//no decremento apos da variavel será aplicada só na proxima linha de codigo
+		document.write('O incremento de A: ' + (++num1) + '<br />' );
+		document.write('O decremento de A: ' + (--num1) + '<br />' );
+		
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
