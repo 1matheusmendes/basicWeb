@@ -53,11 +53,3 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 [Link do recurso respond.js](https://cdnjs.com/libraries/respond.js/)
 
 # javaScript
-
-###### Eventos - mouse
-
-**onclick** - acionado no clique do mouse
-**ondblclick** - acionado no clique duplo do mouse
-**onmousedown** - acionado no clique do mouse (soltando ou não o botão)
-**onmouseover** - acionado quando cursor do mouse sobrepõe o elemento o elemento da página
-**onmouseout** - acionado quando o cursor do mouse sai da área de um elemeto da página
