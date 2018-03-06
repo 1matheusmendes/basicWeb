@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos Mouse</title>
+	<script type="text/javascript">
+		
+		//onclick
+		function msgBoasVindas(){
+			alert('Seja bem vindo, você pressionou o botão esquerdo do mouse sobre o elemento!');
+		}
+		//ondblclick
+		//onmousedown
+		//onmouseover
+		//onmouseout
+
+	</script>
+</head>
+<body>	
+		<div>
+			<h3>Eventos do mouse</h3> 
+		</div>
+		<button onclick="msgBoasVindas()" style="height: 100px; width: 200px">
+		Clique para ver o alerta
+		</button>
+
+		<button ondblclick="msgBoasVindas()" style="height: 100px; width: 200px">
+			Clique para ver o alerta
+		</button>
+
+		<button onmousedown="msgBoasVindas()" style="height: 100px; width: 200px">
+			Clique para ver o alerta
+		</button>
+
+		<button onmouseover ="msgBoasVindas()" style="height: 100px; width: 200px">
+			Clique para ver o alerta
+		</button>
+
+		<button onmouseout ="msgBoasVindas()" style="height: 100px; width: 200px">
+			Clique para ver o alerta
+		</button>
+	
+</body>
+</html>
