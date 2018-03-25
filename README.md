@@ -68,3 +68,11 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 - **onmouseover** - acionado quando cursor do mouse sobrepõe o elemento o elemento da página.
 - **onmouseout** - acionado quando o cursor do mouse sai da área de um elemeto da página.
 
+
+###### Eventos - teclado
+
+
+- **onkeydown** - acionado no momento em que uma tecla é pressionada (soltando ou não a tecla).
+- **onkeypress** - acionado no momento em que uma tecla é pressionada (soltando ou não), porém não captura todas as teclas, como por exemplo: alt, ctrl, esc, shift etc.
+- **onkeyup** - acionada no momento em que a tecla é liberada
+
