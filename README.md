@@ -76,3 +76,9 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 - **onkeypress** - acionado no momento em que uma tecla é pressionada (soltando ou não), porém não captura todas as teclas, como por exemplo: alt, ctrl, esc, shift etc.
 - **onkeyup** - acionada no momento em que a tecla é liberada
 
+
+###### Eventos - teclado
+
+
+- **onload** - acionado quando a página finaliza o carregamento
+- **onresize** - acionado quando a página ou frame é redimensionado
