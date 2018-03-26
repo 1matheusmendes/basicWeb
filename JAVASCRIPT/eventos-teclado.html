@@ -9,16 +9,19 @@
 		//onkeypress
 		//onkeyup
 
+		function msg(){
+			alert('Tecla foi acionada')
+		}
 
 	</script>
 </head>
 <body>
 
 	<h3>Onkeydown</h3>
-	<input onkeydown="alert('Uma tecla foi acionada')" type="text" />
+	<input onkeydown="msg()" type="text" />
 
 	<h3>Onkeypress</h3>
-	<input onkeypress ="alert('Uma tecla foi acionada')" type="text" />
+	<input onkeypress ="msg()" type="text" />
 
 	<h3>Onkeyup</h3>
 	<input onkeyup="alert('Uma tecla foi liberada')" type="text" />
