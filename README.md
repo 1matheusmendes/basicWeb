@@ -77,8 +77,16 @@ São a mistura entre inline e block. Elementos que tenham essa definição permi
 - **onkeyup** - acionada no momento em que a tecla é liberada
 
 
-###### Eventos - teclado
+###### Eventos - janela
 
 
 - **onload** - acionado quando a página finaliza o carregamento
 - **onresize** - acionado quando a página ou frame é redimensionado
+
+
+###### Eventos - formulários
+
+
+- **onfocus** - acionado quando o elemento recebe o foco do cursor
+- **onblur** - acionado quando o elemento perde o foco do cursor.
+- **onchange** - acionado quando o estado do elemento é modificado
