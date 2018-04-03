@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos formulários</title>
+	<script type="text/javascript">
+		function focado() {
+			alert('O elemento foi focado')
+		}
+		function desfocando() {
+			alert('focado ao precionar e desprecionar')
+		}
+	</script>
+</head>
+<body>
+	<h3>Focado</h3>
+	<input onfocus= "focado()" type="text">
+	<br> <br> 
+	<h3>Focado ao sair</h3>
+	<input onblur="desfocando()" type="text">
+	<br> <br>
+	<h3>Selecionado para focar</h3>
+	<br> <br>
+	<select onchange="alert('A primeira opção foi selecionada')">
+		<option value="1">Primeira opção</option>
+		<option value="2">Segunda opção</option>
+	</select>
+</body>
+</html>
