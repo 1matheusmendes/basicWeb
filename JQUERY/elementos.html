@@ -9,10 +9,35 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 		<!-- jquery -->
-		<script src="jquery-2.2.0.js"></script>
+		<script
+  		src="https://code.jquery.com/jquery-2.2.0.js"
+  		integrity="sha256-oYqpLeqZe9cetUDV+TFiBZHp3uJ+X4F5eLs4W6uSTSE="
+  		crossorigin="anonymous"></script>
 
 		<script type="text/javascript">
-			//incluir a codificação javascript aqui
+			function exibeElementosPorTag(tag) {
+				$(tag).show();
+			}
+
+			function ocultaElementoPorTag(tag) {
+				$(tag).hide();
+			}
+
+			function exibeElementosPorClasse(classe) {
+				$('.'+classe).show();
+			}
+
+			function ocultaElementoPorClasse(classe) {
+				$('.'+classe).hide();
+			}
+
+			function exibeElementosPorId(id) {
+				$('#'+id).show();
+			}
+
+			function ocultaElementoPorId(id) {
+				$('#'+id).hide();
+			}
 		</script>
 	</head>
 
@@ -44,13 +69,13 @@
 				</div>
 
 				<div class="col-md-4">
-					<div style="height: 100px; width: 100px; background:#428bca;" class="pull-left"></div>
-					<div style="height: 100px; width: 100px; background:#5cb85c; margin-left:15px" class="pull-left"></div>
+					<div style="height: 100px; width: 100px; background:#428bca;" class="div_2 pull-left"></div>
+					<div style="height: 100px; width: 100px; background:#5cb85c; margin-left:15px" class="div_2 pull-left"></div>
 				</div>
 
 				<div class="col-md-4">
-					<input type="text" class="form-control" />
-					<input type="text" class="form-control" />
+					<input id="campo_1" type="text" class="form-control" />
+					<input id="campo_2" type="text" class="form-control" />
 				</div>
 			</div>
 
@@ -58,18 +83,18 @@
 
 			<div class="row">
 				<div class="col-md-4">
-					<button type="button" class="btn btn-danger" onclick="">Esconder parágrafos</button>
-					<button type="button" class="btn btn-success" onclick="">Exibir parágrafos</button>
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorTag('p')">Esconder parágrafos</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementosPorTag('p')">Exibir parágrafos</button>
 				</div>
 
 				<div class="col-md-4">
-					<button type="button" class="btn btn-danger">Esconder divs</button>
-					<button type="button" class="btn btn-success">Exibir divs</button>
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorClasse('div_2')">Esconder divs</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementosPorClasse('div_2')">Exibir divs</button>
 				</div>
 
 				<div class="col-md-4">
-					<button type="button" class="btn btn-danger">Esconder inputs</button>
-					<button type="button" class="btn btn-success">Exibir inputs</button>
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorId('campo_1'); ocultaElementoPorId('campo_2')">Esconder inputs</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementosPorId('campo_1'); exibeElementosPorId('campo_2')">Exibir inputs</button>
 				</div>
 
 			</div>
