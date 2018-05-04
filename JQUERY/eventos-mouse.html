@@ -16,15 +16,52 @@
 
 		<script type="text/javascript">
 			
+			$(document).ready(function() {
+				//click
+				$('#div1').click(function () {
+					alert('Click');
+				});
+				//dblclick
+				$('#div2').dblclick(function () {
+					alert('Duplo Click');
+				})
+				//mousedown
+				$('#div3').mousedown(function () {
+					alert('Elemento liberado');
+				})
+				$('#div4').mouseover(function () {
+					alert('Elemento foi sobreposto');
+				})
+				$('#div5').mouseout(function () {
+					alert('Area do elemento foi deixada pelo cursor');
+				})
+			});
 
 			
 		</script>
 	</head>
 
 	<body>
-		<div style="height:150px; width: 150px; background: #CCC">
+		<h4>Click</h4>
+		<div id="div1" style="height:150px; margin-left: 30px; width: 150px; background: #CCC">
 			
 		</div>
+		<br>
+		<h4>Duplo Click</h4>
+		<div id="div2" style="height:150px; margin-left: 30px; width: 150px; background: #CCC">
+		</div>
 		
+		<br>
+		<h4>mouseDown </h4>
+		<div id="div3" style="height:150px; margin-left: 30px; width: 150px; background: #CCC">
+		</div>
+		<br>
+		<h4>mouseOver </h4>
+		<div id="div4" style="height:150px; margin-left: 30px; width: 150px; background: #CCC">
+		</div>
+		<br>
+		<h4>mouseOut</h4>
+		<div id="div5" style="height:150px; margin-left: 30px; width: 150px; background: #CCC">
+		</div>
 	</body>
 </html>
