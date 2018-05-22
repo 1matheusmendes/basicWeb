@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+
+	<title>Formulario</title>
+
+	<script
+ 		src="https://code.jquery.com/jquery-3.3.1.js"
+  		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ 		crossorigin="anonymous">		 	
+ 	</script>
+	
+	<script type="text/javascript">
+		$(document).ready(function () {
+			//focus
+			//blur
+			//change
+			$('.campo1').focus(function () {
+				alert('elemento foi focado');
+			})
+			$('.campo2').blur(function () {
+				alert('elemento perdeu o focado');
+			})
+			$('.campo3').change(function () {
+				alert('elemento foi modificado');
+			})
+		});
+	</script>
+</head>
+<body>
+
+	<input class="campo1" type="text" />
+
+	<input class="campo2" type="text" />
+
+		<select class="campo3" />
+			<option value="1">Primeira opção</option>
+			<option value="2">Segunda opção</option>
+		</select>
+</body>
+</html>
