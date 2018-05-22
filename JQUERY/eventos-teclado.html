@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos do Teclado</title>
+	<!--link CDN-->
+	<script
+ 		src="https://code.jquery.com/jquery-3.3.1.js"
+  		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ 		crossorigin="anonymous">		 	
+ 	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			//keydown
+			//keypress
+			//keyup
+
+			$('#campo1').keydown(function () {
+				alert('Botão foi pressionado');
+			})
+			$('#campo2').keypress(function () {
+				alert('Botão foi pressionado');
+			})
+			$('#campo3').keyup(function () {
+				alert('Botão foi liberada');
+			})
+
+		})
+	</script>
+
+</head>
+<body>
+	<input id="campo1" type="text">
+	<input id="campo2" type="text">
+	<input id="campo3" type="text">
+</body>
+</html>
